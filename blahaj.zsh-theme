@@ -32,7 +32,7 @@ fi
 
 local return_code="%(?..${BLAHAJ_PINK}%? ↵${BLAHAJ_RESET})"
 
-local user_host="${PR_USER}${BLAHAJ_WHITE} 🏳️‍⚧️ ${PR_HOST}${BLAHAJ_RESET}"
+local user_host="${PR_USER}${BLAHAJ_WHITE}@${PR_HOST}${BLAHAJ_RESET}"
 local current_dir="${BLAHAJ_WHITE}%~${BLAHAJ_RESET}"
 local git_branch='$(git_prompt_info)'
 local venv_prompt='$(virtualenv_prompt_info)' 
