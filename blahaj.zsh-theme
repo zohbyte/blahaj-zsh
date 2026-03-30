@@ -37,7 +37,7 @@ local current_dir="${BLAHAJ_WHITE}%~${BLAHAJ_RESET}"
 local git_branch='$(git_prompt_info)'
 local venv_prompt='$(virtualenv_prompt_info)' 
 
-PROMPT="┌──(${user_host}) 🏳️‍⚧️ [${current_dir}]${git_branch}${venv_prompt}
+PROMPT="┌──(${user_host})🏳️‍⚧️ [${current_dir}]${git_branch}${venv_prompt}
 ${PR_PROMPT}"
 RPROMPT="${return_code}"
 
